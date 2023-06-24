@@ -54,7 +54,7 @@
     border-radius: 12px;
     background: var(--white);
     display: -webkit-box;
-    display: flex;
+    display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
             flex-direction: column;
@@ -197,6 +197,7 @@
     background-color: yellow;
     margin-right: 80px;
     margin-left: 80px;
+    display: block;
     }
     
     img {
