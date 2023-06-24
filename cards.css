@@ -22,4 +22,25 @@
     background-color: white;
   }
 
+.flexbox {
+border: 2px solid skyblue;
+margin-top: 30px;
+border-radius: 30px;
+background-color: yellow;
+margin-right: 80px;
+margin-left: 80px;
+}
+
+img {
+  position: relative;
+  border-radius: 30px;
+}
+span {
+  text-align: right;
+}
+
+
+
+
+
   
