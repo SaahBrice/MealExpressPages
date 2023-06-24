@@ -20,6 +20,13 @@
   html {
     box-sizing: border-box;
   }
+
+
+
+
+
+
+  
   
   body {
     background: var(--bodyBg);
@@ -47,7 +54,7 @@
     border-radius: 12px;
     background: var(--white);
     display: -webkit-box;
-    display: flex;
+    display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
             flex-direction: column;
@@ -182,3 +189,22 @@
             transform: translateY(-3px);
     box-shadow: 0 10px 34px 0 rgba(255, 79, 135, 0.32);
   }
+
+  .flexbox {
+    border: 2px solid skyblue;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: yellow;
+    margin-right: 80px;
+    margin-left: 80px;
+    display: block;
+    }
+    
+    img {
+      position: relative;
+      border-radius: 30px;
+    }
+    span {
+      text-align: right;
+    }
+    
