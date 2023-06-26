@@ -1,16 +1,26 @@
-a {
-  font-size:14px;
-  font-weight:700
-}
-.superNav {
-  font-size:13px;
-}
-.form-control {
-  outline:none !important;
-  box-shadow: none !important;
-}
-@media screen and (max-width:540px){
-  .centerOnMobile {
-    text-align:center
+
+
+
+
+
+
+
+
+
+.my-badge {
+	top: 0;
+	right: 0;
+	background-color: rgb(255, 115, 0);
+	color: white;
+	font-size: 12px;
+	border-radius: 50%;
+	margin-left: 10px;
+	animation: bounce 1s infinite;
   }
-}
+
+
+  @keyframes bounce {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(-10px); }
+	100% { transform: translateY(0); }
+  }
