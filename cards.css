@@ -235,3 +235,18 @@
       align-items: center;
       justify-content: space-around;
     }
+
+    .grid {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .xflexbox {
+      background: rgb(176, 176, 71);
+      margin-right: 350px;
+      margin-left: 350px;
+      text-align: center;
+    }
+    .lien {
+      text-align: center;
+    }
