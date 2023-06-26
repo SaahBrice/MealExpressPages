@@ -203,11 +203,17 @@
     .T_img {
       position: relative;
       border-radius: 30px;
+      vertical-align: bottom;
+      padding-left: 280px;
     }
-    .T_span {
-      text-align: right;
-    }
+
     .T-align {
       text-align: center;
+    }
+
+    .boutton {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
     }
     
