@@ -216,4 +216,22 @@
     margin-left: auto;
     margin-right: auto;
     }
+
+    .canal {
+      box-shadow: #4535f0;
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+    }
     
+    .tnav {
+      background: skyblue;
+      position: relative;
+      height: 50px;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
