@@ -195,16 +195,58 @@
     margin-top: 30px;
     border-radius: 30px;
     background-color: yellow;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
     display: block;
     }
     
     .T_img {
       position: relative;
       border-radius: 30px;
+      vertical-align: bottom;
+      padding-left: 280px;
     }
-    .T_span {
-      text-align: right;
+
+    .T-align {
+      text-align: center;
+    }
+
+    .boutton {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .canal {
+      box-shadow: #4535f0;
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
     }
     
+    .tnav {
+      background: skyblue;
+      position: relative;
+      height: 50px;
+    }
+
+    .tliste {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .grid {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .xflexbox {
+      background: rgb(176, 176, 71);
+      margin-right: 350px;
+      margin-left: 350px;
+      text-align: center;
+    }
+    .lien {
+      text-align: center;
+    }
